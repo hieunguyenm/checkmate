@@ -78,6 +78,10 @@ executable checkmate
                        , bimap
                        , exceptions
                        , sort
+                       , aeson-pretty
+                       , mime-types
+                       , filepath
+                       , directory
 
   -- Directories containing source files.
   hs-source-dirs:      app
